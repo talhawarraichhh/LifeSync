@@ -2,16 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
 
 body {
-    font-family: 'Nunito Sans', sans-serif; /* This changes the font for the entire body */
+    font-family: 'Artica', sans-serif; /* This changes the font for the entire body */
     margin: 0;
     padding: 0;
-    background-color: #f8f0f2; /* Whitish grey-pink mix */
+    background-color: 	#FFFAFF; /* Whitish grey-pink mix */
     color: #333;
 }
 
 /* Navigation Bar Styles */
 .navbar {
-    background-color: #f8f0f2; /* Matching the body's background */
+    background-color: 	#FFFAFF; /* Matching the body's background */
     padding: 10px 0;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow */
 }
@@ -65,19 +65,23 @@ body {
 .main-header {
     text-align: center;
     padding: 100px 20px;
-    background: #f8f0f2; /* Consistent with the body background */
+    background: 	#FFFAFF; /* Consistent with the body background */
 }
 
 .main-header h1 {
+    font-family: 'Artica', sans-serif; /* Replace 'FontOne' with the actual font you want */
+    margin-bottom: 24px; /* Adjust the space between the h1 and the paragraph */
     font-size: 4vw;
-    color: #2c3e50;
+    color: #333333;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
 .main-header .tagline {
-    font-size: 1.5vw;
-    color: #6c7a89;
+    font-family: 'Gerbera', sans-serif; /* Replace 'FontTwo' with the actual font you want */
+    line-height: 1.6; /* This increases the space between lines of the paragraph */
+    font-size: 1.3vw;
+    color:  #737373;
     font-weight: 400;
     max-width: 80%;
     margin: 0 auto;
